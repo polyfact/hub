@@ -15,8 +15,8 @@
      [:div {:class "flex w-0 flex-1"}
       [:a {:href (:github-link pkg)
            :class "relative -mr-px inline-flex w-0 flex-1 items-center justify-center gap-x-3 rounded-bl-lg border border-transparent py-4 text-sm font-semibold text-gray-900"}
-       "GitHub"]]
+       [:img {:src "/img/github.png" :class "h-7 w-7"}]]]
      [:div {:class "-ml-px flex w-0 flex-1"}
       [:a {:href (:npm-link pkg)
            :class "relative inline-flex w-0 flex-1 items-center justify-center gap-x-3 rounded-br-lg border border-transparent py-4 text-sm font-semibold text-gray-900"}
-       "NPM"]]]]])
+       [:img {:src "/img/npm.png" :class "h-auto w-10"}]]]]]])
