@@ -1,12 +1,12 @@
-# shadow-cljs + tailwindcss
+# Polyfact Hub
 
-This is an example of how to setup shadow-cljs and [tailwindcss](https://github.com/tailwindlabs/tailwindcss)
+This repository contains the source code for the Polyfact Hub. The Polyfact Hub is a web application that allows users to browse the packages built with Polyfact SDKs, and all the links related to the Polyfact Library. It is built using ClojureScript and Clojure. (More specifically, shadow-cljs and [tailwindcss](https://github.com/tailwindlabs/tailwindcss))
 
 ## Setup
 
 ```bash
-git clone https://github.com/jacekschae/shadow-cljs-tailwindcss.git app
-cd app
+git clone https://github.com/polyfact/hub.git polyfact-hub
+cd polyfact-hub
 npm install
 npm run dev
 ```
@@ -15,7 +15,7 @@ This runs the `shadow-cljs` server, builds tailwind-css and runs `postcss`. It w
 
 The first startup takes a bit of time since it has to download all the dependencies and do some prep work. Once this is running you can open browser [http://localhost:8020](http://localhost:8020) and get started.
 
-## Config 
+## Config
 
 `shadow-cljs` is configured by the `shadow-cljs.edn` file and the UI is available at [http://localhost:9630](http://localhost:9630).
 
@@ -39,7 +39,7 @@ cljs.user=>
 
 This can now be used to eval code in the browser (assuming you still have it open). Try `(js/alert "Hi.")` and take it from there. You might want to use `rlwrap npx shadow-cljs cljs-repl app` if you intend to type a lot here.
 
-You can exit the REPL by either `CTRL+C` or 
+You can exit the REPL by either `CTRL+C` or
 typing `:repl/quit`.
 
 PS. Most probably you want to connect to the REPL from your editor, and not type in the terminal.
