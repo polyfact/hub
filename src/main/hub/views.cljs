@@ -15,13 +15,13 @@
 
 (defn hub
   []
-  [:div {:class "h-screen flex flex-col md:flex-row overflow-hidden bg-white"}
-   [:div {:class "md:flex md:flex-shrink-0"}
-    [:div {:class "flex flex-col w-full md:w-64 border-r border-gray-200 pt-5 pb-4 bg-gray-100"}
-     [:div {:class "flex items-center flex-shrink-0 px-4 md:px-6"}
+  [:div {:class "h-screen flex flex-col lg:flex-row overflow-hidden bg-white"}
+   [:div {:class "lg:flex lg:flex-shrink-0"}
+    [:div {:class "flex flex-col w-full lg:w-64 border-r border-gray-200 pt-5 pb-4 bg-gray-200"}
+     [:div {:class "flex items-center flex-shrink-0 px-4 lg:px-6"}
       [:div {:class "text-center text-3xl font-bold text-gray-900"} "Hub"]]
      [:div {:class "h-0 flex-1 flex flex-col overflow-y-auto"}
-      [:div {:class "px-1 md:px-3 mt-6 relative inline-block text-left"}
+      [:div {:class "px-1 lg:px-3 mt-6 relative inline-block text-left"}
        [:div
         [:button {:type "button"
                   :on-click #(events/toggle-dropdown)
