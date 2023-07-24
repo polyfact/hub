@@ -13,9 +13,9 @@
     [:div {:class "-mt-px flex divide-x divide-gray-200"}
      [:div {:class "flex w-0 flex-1"}
       [:a {:href (:github-link pkg)
-           :class "relative -mr-px inline-flex w-0 flex-1 items-center justify-center gap-x-3 rounded-bl-lg border border-transparent py-4 text-sm font-semibold text-gray-900 hover:bg-gray-200"}
-       [:img {:src "/img/github.png" :class "h-7 w-7"}]]]
+           :class "relative -mr-px inline-flex w-0 flex-1 items-center justify-center gap-x-3 rounded-bl-lg border border-transparent py-2 text-sm font-semibold text-gray-900 hover:bg-gray-200"}
+       [:img {:src "/img/github.png" :class "h-9 w-9"}] "->"]]
      [:div {:class "-ml-px flex w-0 flex-1"}
       [:a {:href (:npm-link pkg)
-           :class "relative inline-flex w-0 flex-1 items-center justify-center gap-x-3 rounded-br-lg border border-transparent py-4 text-sm font-semibold text-gray-900 hover:bg-gray-200"}
-       [:img {:src "/img/npm.png" :class "h-auto w-10"}]]]]]])
+           :class "relative inline-flex w-0 flex-1 items-center justify-center gap-x-3 rounded-br-lg border border-transparent py-2 text-sm font-semibold text-gray-900 hover:bg-gray-200"}
+       [:img {:src "/img/npm.png" :class "h-auto w-14"}] "->"]]]]])
