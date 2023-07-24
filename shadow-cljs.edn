@@ -10,7 +10,7 @@
   {:target :browser
    :output-dir "public/js"
    :asset-path "/js"
-   :output-hash true
+   :module-hash-names true
    :modules
    {:main
     {:init-fn hub.app/init}}}}}
