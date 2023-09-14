@@ -1,6 +1,6 @@
-# Polyfact Hub
+# PolyFact Hub
 
-This repository contains the source code for the Polyfact Hub. The Polyfact Hub is a web application that allows users to browse the packages built with Polyfact SDKs, and all the links related to the Polyfact Library. It is built using ClojureScript and Clojure. (More specifically, shadow-cljs and [tailwindcss](https://github.com/tailwindlabs/tailwindcss))
+This repository contains the source code for the PolyFact Hub. The PolyFact Hub is a web application that allows users to browse the packages built with PolyFact SDKs, and all the links related to the PolyFact Library. It is built using ClojureScript and Clojure. (More specifically, shadow-cljs and [tailwindcss](https://github.com/tailwindlabs/tailwindcss)).
 
 ## Setup
 
@@ -42,7 +42,7 @@ This can now be used to eval code in the browser (assuming you still have it ope
 You can exit the REPL by either `CTRL+C` or
 typing `:repl/quit`.
 
-PS. Most probably you want to connect to the REPL from your editor, and not type in the terminal.
+PS. Most of all you probably want to connect to the REPL from your editor, and not type in the terminal.
 
 ## Release
 
